@@ -9,16 +9,16 @@ namespace NetplateTest
     {
         static void Main(string[] args)
         {
-            string template = @"Dear [Title][~ ][Forename][~ ][Surname],";
+            string template = @"[if [Min] == [Max]][~true]";
             Console.WriteLine(template);
-            Console.WriteLine("\n----------\n");
+            Console.WriteLine("\n------------------\n");
 
             var data = new Dictionary<string, object>()
             {
-                {"Title", "Mr"},
-                {"Forename", "John"},
-                {"Surname", "Doe"}
+                {"Min", 100 },
+                {"Max", 100 }
             };
+
             string result = MailMerge.Merge(template, data);
             Console.WriteLine(result);
 

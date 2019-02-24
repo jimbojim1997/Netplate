@@ -3,14 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netplate", "Netplate\Netplate.csproj", "{65063636-0216-4BE7-8B97-FC213461A193}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetplaceTest", "NetplaceTest\NetplaceTest.csproj", "{6F6BDEB2-0A11-4F71-9833-D0322153216C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netplate", "Netplate\Netplate.csproj", "{65063636-0216-4BE7-8B97-FC213461A193}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3A1D658A-A038-4AFE-B092-D3E2FCE0C705}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetplateTest", "NetplateTest\NetplateTest.csproj", "{6F6BDEB2-0A11-4F71-9833-D0322153216C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
